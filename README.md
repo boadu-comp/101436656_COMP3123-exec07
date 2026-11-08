@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# COMP3123 Lab Exercise 7: React JS Week 09
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
 
-## Available Scripts
+This project was developed for COMP3123: Full Stack Development I at George Brown College.
 
-In the project directory, you can run:
+The purpose of this lab exercise is to create a React.js application and modify the default layout to display student information using React components and props.
 
-### `npm start`
+The application displays the React logo, a welcome message, the course information, student details, and the college name.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Node.js
+- npm
+- Create React App
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+The application includes the following features:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Displays the React logo with a continuous spinning animation.
+2. Displays the heading "Welcome to Fullstack Development - I".
+3. Displays the subheading "React JS Programming Week09 Lab exercise".
+4. Displays the student's ID and full name.
+5. Displays "George Brown College, Toronto".
+6. Uses React props to pass student information between components.
+7. Uses CSS to create a centered layout with a white background.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Testing
 
-### `npm run eject`
+The application was tested locally using the React development server.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The following functionality was verified:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- The React application starts successfully using `npm start`.
+- The webpage loads at `http://localhost:3000`.
+- The React logo and spinning animation display correctly.
+- The required headings and student information appear.
+- The layout uses a white background with centered content.
+- React props correctly display student information.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Browser screenshots are provided separately as evidence of successful execution.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Conclusion
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This lab demonstrates the fundamentals of React.js, including creating components, passing data through props, and using CSS to customize the application layout. The completed application displays the required student and college information.
