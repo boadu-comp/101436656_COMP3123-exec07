@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  color: black;
+}
+
+.App-logo {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 40px;
+  animation: App-logo-spin infinite 20s linear;
+}
+
+.App-header h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.App-header h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.student-info h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.student-info h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.student-info p {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 600px) {
+  .App-logo {
+    width: 180px;
+    height: 180px;
+  }
+
+  .App-header h1 {
+    font-size: 24px;
+  }
+
+  .App-header h2 {
+    font-size: 20px;
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
